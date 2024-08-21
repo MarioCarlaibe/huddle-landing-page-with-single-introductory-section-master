@@ -1,0 +1,97 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-color: var(--Violet);
+    background-size: 1570px;
+    height: 100vh;
+}
+
+.section .logo{
+    margin: 5.3rem 0 8.4rem 6.7rem;
+    width: 21.8rem;
+}
+
+.section .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section .content .description{
+    color: #fff;
+    width: 55rem;
+}
+
+.section .content .description .title{
+    font-family: "Poppins", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 4.2rem 0 2.4rem;
+}
+
+.section .content .description .text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+.section .content .description .button{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    padding: 1.5rem 6.3rem;
+    background-color: #fff;
+    border-radius: 3rem;
+    font-size: 1.8rem;
+    color: var(--Violet);
+    transition: 0.3s;
+}
+
+.section .content .description .button:hover{
+    background-color: var(--Soft-Magenta);
+    color: #fff;
+}
+
+.section .social{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7rem;
+    margin-top: 1rem;
+    height: 5rem;
+}
+
+.section .social a i{
+    font-size: 1.7rem;
+    margin: 0.9rem;
+    border: 0.1rem solid #fff;
+    border-radius: 50%;
+    padding: 1rem;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.section .social a i:hover{
+    color: var(--Soft-Magenta);
+    border: 0.1rem solid var(--Soft-Magenta);
+}
+
+.footer{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.attribution { 
+    font-size: 1.1rem; 
+    text-align: center; 
+    color: #fff;
+}
+
+.attribution a { 
+    color: #fff; 
+}
