@@ -3,6 +3,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+    }
+
+    html body{
+        background: url('../images/bg-mobile.svg') no-repeat;
+        background-color: var(--Violet);
+        background-position: center top;
+        background-size: cover;
     }
 
     body .section .content .description{
@@ -35,6 +43,10 @@
 @media(max-width: 768px){
     body .section .content .mockups{
         width: 64rem;
+    }
+
+    html body{
+        background-size: contain;
     }
 }
 
