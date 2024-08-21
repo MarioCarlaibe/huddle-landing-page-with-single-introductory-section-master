@@ -79,6 +79,10 @@ body{
     border: 0.1rem solid var(--Soft-Magenta);
 }
 
+.section .social .fa-facebook-f{
+    padding: 1rem 1.3rem;
+}
+
 .footer{
     height: 10rem;
     display: flex;
